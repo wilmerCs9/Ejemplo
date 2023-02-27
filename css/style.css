@@ -1,0 +1,17 @@
+body{
+    background-color:black;
+}
+img{
+    margin-top: 20px;
+    margin-left: 600px;
+    margin-bottom: 10px;
+    
+}
+button{
+    margin-top: 700px;
+}
+button :hover{
+    color: red;
+    padding: 20px;
+
+}
