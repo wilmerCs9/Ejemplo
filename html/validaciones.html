@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validacion</title>
+</head>
+<body>
+    <h1>Inicio de sesión</h1>
+    <fieldset>
+        <form action="">
+            <label for="usuario">Usuario:</label>
+            <input type="text" name="usuario" required><br><br>
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" name="contrasena" required><br><br>
+            <label>Carrera </label>
+            <input list="Carrera" name="list" required />
+            <datalist id="Carrera">
+            <option label="ING.sistemas" value="ING.sistemas">
+            <option label="ING.Mecanica" value="ING.Mecanica">
+            <option label="ING.civil" value="ING.civil">
+            <option label="ING.Ambiental" value="ING.Ambiental">    
+            </datalist>
+            <button>ENVIAR</button>
+        </form>
+    </fieldset>
+</body>
+</html>
